@@ -6,11 +6,12 @@ import java.util.SortedMap;
 public class HEOOLWARLD {
         public static void main() {
            //键盘输入一个整数
+            System.out.println("请输入第一个整数");
             Scanner sc = new Scanner(System.in);
             int num1 = sc.nextInt();
 
             //键盘输入一个整数
-
+            System.out.println("请输入第二个整数");
             int num2 = sc.nextInt();
 
 
