@@ -1,4 +1,7 @@
 package HELLO;
 
-public class HEOOLWARLD {
+    public class HEOOLWARLD {
+        static void main() {
+            System.out.println("hellowarld");
+        }
 }
