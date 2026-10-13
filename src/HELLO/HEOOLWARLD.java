@@ -1,16 +1,29 @@
 package HELLO;
-//package:表示当前的类定义在那个包下
-//这段代码不需要我们自己写，是IDEA自动生成的
 
-//class定义一个类public class HEOOLWARLD{}  HEOOLWARLD为类名{}为范围
-
-
+import java.util.Scanner;
 
 public class HEOOLWARLD {
-
-    //psvm(固定格式）程序的主入口，当程序开始运行的时候，会从主入口开始逐行往下执行程序
         public static void main() {
-            //sout输出语句/打印语句，表示将里面的内容输出到控制台
+            //彩票中奖案例，生成一个7位的随机数表示彩票号码，键盘录入一个7位数表示用户购买的彩票判断用户输入的彩票号码是否和系统生成的彩票号码一致
+            //生成一个7位的随机数表示彩票号码
+            int lotteryNumber = (int)(Math.random()*1000000+1000000);
+            System.out.println("系统生成的彩票号码为："+lotteryNumber);
+
+
+            //键盘录入一个7位数表示用户购买的彩票
+            int userNumber = 0;
+            Scanner sc = new Scanner(System.in);
+            System.out.println("请输入用户购买的彩票号码：");
+            userNumber = sc.nextInt();
+
+
+            //判断用户输入的彩票号码是否和系统生成的彩票号码一致
+            if(userNumber == lotteryNumber){
+                System.out.println("恭喜用户中奖了！");
+            }else{
+                System.out.println("很遗憾，用户没有中奖！");
+            }
+
             System.out.println("hellowarld");
         }
 }
