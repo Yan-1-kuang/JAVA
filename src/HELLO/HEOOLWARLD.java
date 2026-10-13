@@ -1,22 +1,22 @@
 package HELLO;
 //确定使用Scanner类
 import java.util.Scanner;
+import java.util.SortedMap;
 
 public class HEOOLWARLD {
         public static void main() {
-          /* 键盘输入一个整数
+           //键盘输入一个整数
             Scanner sc = new Scanner(System.in);
-            int num = sc.nextInt();
-            System.out.println(num);
-            //键盘输入小数
-            double price = sc.nextDouble();
-            System.out.println(price); */
+            int num1 = sc.nextInt();
+
+            //键盘输入一个整数
+
+            int num2 = sc.nextInt();
 
 
-            //键盘输入文本
-            Scanner sc = new Scanner(System.in);
-            String str = sc.nextLine();
-            System.out.println(str);
+            System.out.println(num1+num2);
+
+
 
         }
 }
