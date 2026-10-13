@@ -5,20 +5,25 @@ import java.util.SortedMap;
 
 public class HEOOLWARLD {
         public static void main() {
-           //键盘输入一个整数
-            System.out.println("请输入第一个整数");
-            Scanner sc = new Scanner(System.in);
-            int num1 = sc.nextInt();
-
-            //键盘输入一个整数
-            System.out.println("请输入第二个整数");
-            int num2 = sc.nextInt();
-
-
-            System.out.println(num1+num2);
-
-
-
+            //算数运算符:+%
+           // 整数计算、小数计算
+            //加法
+            int num1 = 10;
+            int num2 = 20;
+            int sum = num1+num2;
+            System.out.println(sum);
+            //减法
+            int diff = num1-num2;
+            System.out.println(diff);
+            //乘法
+            int prod = num1*num2;
+            System.out.println(prod);
+            //除法
+            int div = num1/num2;
+            System.out.println(div);
+            //取余
+            int mod = num1%num2;
+            System.out.println(mod);
         }
 }
 
